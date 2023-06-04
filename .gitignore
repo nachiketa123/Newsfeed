@@ -1,0 +1,65 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/NewsFeed-frontend/node_modules
+/NewsFeed-frontend/.pnp
+/NewsFeed-frontend/.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+
+
+# Spring Boot target directory
+/NewsFeed-backend/target/
+
+# IDE-specific files
+/NewsFeed-backend/*.iml
+/NewsFeed-backend/*.ipr
+/NewsFeed-backend/*.iws
+/NewsFeed-backend/.idea/
+/NewsFeed-backend/.vscode/
+
+# Maven specific files
+/NewsFeed-backend/mvnw
+/NewsFeed-backend/mvnw.cmd
+/NewsFeed-backend/.settings/
+/NewsFeed-backend/.classpath
+/NewsFeed-backend/.project
+/NewsFeed-backend/.settings/
+
+# Gradle specific files
+/NewsFeed-backend/.gradle/
+/NewsFeed-backend/build/
+
+# Application properties file
+/NewsFeed-backend//src/main/resources/application.properties
+
+# Logs
+/NewsFeed-backend//
+
+# Compiled Java class files
+/NewsFeed-backend/*.class
+
+# Package files
+/NewsFeed-backend/*.jar
+/NewsFeed-backend/*.war
+
+# Miscellaneous
+/NewsFeed-backend/*.log
+/NewsFeed-backend/*.swp

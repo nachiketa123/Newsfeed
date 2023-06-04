@@ -1,0 +1,19 @@
+.login{
+    margin-top: 10em;
+}
+.login-form{
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 0;
+    
+}
+
+.login-form:hover,.login-form:focus-within{
+    box-shadow: 1px 1px 4px 1px grey;
+}
+
+.login .form-control{
+    width: 60%;
+}
